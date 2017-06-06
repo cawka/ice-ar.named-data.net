@@ -31,7 +31,7 @@ team:
   - name: Satyajayant (Jay) Misra
     photo: jay-misra.png
     title: "NMSU; Security & Privacy, Wireless, NDN, ICN"
-    info: ""
+    info: "Jay Misra is an associate professor in computer science at New Mexico State University (NMSU). He received his Ph. D. in computer science from Arizona State University, in 2009 and his integrated M.Sc. (Tech.) information systems and M.Sc. (Hons.) physics degrees from the Birla Institute of Technology and Science, Pilani, India, in 2003.  His research interests include algorithm and protocol design and development for anonymity, security, and survivability in networks, namely the future Internet, in supercomputing, and IoT/CPS architectures. He has over 50 peer-reviewed publications in several prestigious venues. He served on the editorial board of the IEEE Communications Surveys and Tutorials and is currently an editorial board member of the IEEE Wireless Communication Magazine (feature editor)."
     
   - name: Lixia Zhang
     photo: lixia-zhang.png
