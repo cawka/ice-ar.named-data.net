@@ -1,0 +1,29 @@
+safe: false
+source: .
+destination: ./_site
+highlighter: rouge
+markdown: kramdown
+exclude: ['CNAME', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', '.sass-cache']
+
+gems:
+  - jekyll-compass
+
+url: https://ice-ar.named-data.net
+baseurl: 
+
+# Configuration for site
+title: ICN-Enabled Secure Edge Networking with Augmented Reality (ICE-AR)
+logo_title: ICE-AR Project
+author: ICE-AR Project Team
+email:
+logo: assets/img/logo.png
+
+navbar_list:
+- name: Home
+  link: /
+- name: Project Team
+  link: team.html
+
+# google_analytics:
+#    account: UA-XXXXX-X
+
