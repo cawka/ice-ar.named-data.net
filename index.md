@@ -3,7 +3,11 @@ layout: default
 title: ICN-Enabled Secure Edge Networking with Augmented Reality (ICE-AR)
 ---
 
-<img src="{{ site.baseurl }}/assets/img/intro.png" align="right" style="max-width: 60%" />
+<div class="row" markdown="1">
+
+<div class="col-md-12" markdown="1">
+
+<img src="{{ site.baseurl }}/assets/img/intro.png" class="col-md-6 pull-right" style="max-width:100%" />
 
 Technological advances have moved the society into an exciting wireless mobile computing era, where people's daily life is enhanced by new applications of ever increasing sophistication. However today's Internet operates using the TCP/IP protocol architecture that was developed 40 years ago, which limits the utilization of these technology advances to their full potential. In this project we propose to remove the architectural limitations by applying the results from our six-year research efforts on Named Data Networking,  a realization of the Information Centric Networking (ICN) vision, to develop a new wireless network architecture.
 
@@ -11,18 +15,23 @@ To place our efforts on solid ground, our team, composed of experts in Named Dat
 
 However the AR implementations with TCP/IP today resort to cloud services, which lead to scalability and performance concerns and unavailability after disasters.  We believe that NDN can enable AR at wireless edge through systematic naming and retrieving named data at network layer. NDN design principles emphasize application-level data naming and data-centric security, asynchronous publishing and consumption, and enable efficient use of local and proximate resources.  We will apply them to build a system that unifies the latest advances in wireless communication with domain specific computing technologies to accelerate AR at wireless edge and deliver robust performance for large groups of people interacting in real-time with data and content.
 
+</div>
+</div>
 
 ## Our Objectives
 
-- <span class="dropcap dropcap-big">E</span>  Enable ICN in an operational demonstration system that integrates low-level wireless performance improvements with domain-specific acceleration 
-as a service --- exploring the design and usage of computation at wireless edge.
+<span class="dropcap dropcap-big">E</span>  Enable ICN in an operational demonstration system that integrates low-level wireless performance improvements with domain-specific acceleration 
+as a service --- explore the design and usage of computation at wireless edge.
+{: class="lead" }
 
-- <span class="dropcap dropcap-big">D</span> Develop the design of robust and resilient networking for an information system that comprehensively utilizes infrastructure resources 
+<span class="dropcap dropcap-big">D</span> Develop the design of robust and resilient networking for an information system that comprehensively utilizes infrastructure resources 
 as well as withstands massive infrastructure failures.
+{: class="lead" }
 
-- <span class="dropcap dropcap-big">G</span> Generate and generalize approaches that transition content delivery from monolithic, context-independent streams to highly granular, context-dependent approaches that can adapt rapidly and be delivered efficiently.
+<span class="dropcap dropcap-big">G</span> Generate and generalize approaches that transition content delivery from monolithic, context-independent streams to highly granular, context-dependent approaches that can adapt rapidly and be delivered efficiently.
+{: class="lead" }
 
-- <span class="dropcap dropcap-big">E</span>Explore how to infuse comprehensive end-to-end security and identity privacy protection for users/applications--intrinsic security and privacy in all cyberspace elements at the edge, rather than an after-thought patch-on.
+<span class="dropcap dropcap-big">E</span>Explore how to infuse comprehensive end-to-end security and identity privacy protection for users/applications--intrinsic security and privacy in all cyberspace elements at the edge, rather than an after-thought patch-on.
 {: class="lead" }
 
 <!-- - <span class="dropcap dropcap-big">I</span> Investigate management of identities and trust relations in dense deployments in large campus networks of the future where content can be generated  by all edge devices.  -->

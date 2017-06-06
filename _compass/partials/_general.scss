@@ -4,9 +4,9 @@
 
 body {
 	font-family: $base-font-family;
-	font-size: 13px;
+	font-size: $font-size-base;
 	color: $body-text-color;
-	line-height: 1.6;
+	line-height: $line-height-base;
 
 	&.layout-boxed {
 		background-image: image-url("gray_jean.png");
