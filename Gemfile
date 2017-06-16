@@ -7,4 +7,5 @@ gem 'RedCloth',          '>=4.3.2'
 gem 'classifier-reborn', '>=2.0.4'
 gem 'kramdown',          '>=1.13.1'
 gem 'jekyll-compass',    '>=2.0.1'
+gem 'jekyll-scholar'
 

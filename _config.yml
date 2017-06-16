@@ -1,6 +1,7 @@
 safe: false
 source: .
 destination: ./_site
+plugins_dir: ./_plugin
 highlighter: rouge
 markdown: kramdown
 exclude: ['CNAME', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', '.sass-cache']
@@ -23,7 +24,25 @@ navbar_list:
   link: /
 - name: Project Team
   link: team.html
+- name: Publications
+  link: pub.html
 
 # google_analytics:
 #    account: UA-XXXXX-X
+
+# jekyll-scholar configurations
+scholar:
+  style: apa
+  locale: en
+  bibliography_template: bib
+
+  sort_by: year
+  order: descending
+
+  source: ./_publications
+  bibliography: test.bib
+  details_dir: ./publications/details
+  details_layout: details.html
+  #query: "@*[public!=no]"
+
 
