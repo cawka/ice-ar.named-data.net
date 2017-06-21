@@ -1,14 +1,40 @@
 ---
 layout: default
 no_sidebar: true
+title: publications
 ---
 
-<div class="pub-2007">
-    <h3>Published in 2007</h3>
-    {% bibliography --query @*[year=2007] %}
+<!-- Nav bar -->
+<ul class="nav nav-pills tabs-iconized" role="tablist">
+  <li class="active"><a href="#ndn-mobility" role="tab" data-toggle="tab">
+  <i class="fa fa-mobile"></i> NDN Mobility </a></li>  
+  <li><a href="#ar-vr" role="tab" data-toggle="tab">
+  <i class="fa fa-camera-retro"></i> AR/VR </a></li>
+  <li><a href="#wireless-edge" role="tab" data-toggle="tab">
+  <i class="fa fa-wifi"></i> Wireless Edge </a></li>
+  <li><a href="#acceleration" role="tab" data-toggle="tab">
+  <i class="fa fa-rocket"></i> Domain-specific Acceleration </a></li>
+  <li><a href="#security" role="tab" data-toggle="tab">
+  <i class="fa fa-user-secret"></i> Security </a></li>
+</ul>
+<!-- END Nav bar-->
+
+<!-- Content -->
+<div class="tab-content">
+<div class="tab-pane fade in active" id="ndn-mobility">
+  {% bibliography --query @*[category=mobility] %}
 </div>
-      
-<div class="pub-2008">
-    <h3>Published in 2008</h3>
-    {% bibliography --query @*[year=2008] %}
+<div class="tab-pane fade" id="ar-vr">
+ {% bibliography --query @*[category=ar || category=vr] %}
 </div>
+<div class="tab-pane fade" id="wireless-edge">
+  {% bibliography --query @*[category=Wireless edge || category=(5G/B5G) Wireless communication] %}
+</div>
+<div class="tab-pane fade" id="acceleration">
+  {% bibliography --query @*[category=acceleration] %}
+</div>
+<div class="tab-pane fade" id="security">
+  {% bibliography --query @*[category=security] %}
+</div>
+</div>
+<!-- END Content -->

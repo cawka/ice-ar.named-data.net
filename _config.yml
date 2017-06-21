@@ -34,13 +34,13 @@ navbar_list:
 scholar:
   style: apa
   locale: en
-  bibliography_template: bib
+  bibliography_template: pub
 
   sort_by: year
   order: descending
 
   source: ./_publications
-  bibliography: test.bib
+  bibliography: pub.bib
   details_dir: ./publications/details
   details_layout: details.html
   #query: "@*[public!=no]"
