@@ -26,6 +26,14 @@ navbar_list:
   link: team.html
 - name: Publications
   link: pub.html
+- name: News
+  link: /
+- name: Software
+  submenu:
+    - name: ARToolkit
+    - name: ndn-cxx
+    - name: ndnSim
+    - name: PARADE    
 
 # google_analytics:
 #    account: UA-XXXXX-X

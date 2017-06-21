@@ -7,7 +7,7 @@
       {% if item.submenu %}
         <li class="dropdown {{ active }}">
           <a class="dropdown-toggle" href="#" data-toggle="dropdown">{{ item.name }} <i class="fa fa-angle-down"></i></a>
-          <a class="dropdown-link" href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
+          
           <ul class="dropdown-menu" role="menu">
             {% for sub in item.submenu %}
               <li><a href="{{ site.baseurl }}{{ sub.link }}">{{ sub.name }}</a></li>
