@@ -1,27 +1,48 @@
 ---
 layout: default
 no_sidebar: true
-title: publications
+title: Groundworks for ICE-AR Project
+
+category:
+  - name: NDN introduction
+    id: intro
+  
+  - name: NDN@Edge
+    id: edge
+
+  - name: AR/VR
+    id: ar
+
+  - name: Security
+    id: security
+
+  - name: Domain-specific Acceleration
+    id: acceleration
 ---
 
 <!-- Nav bar -->
 <ul class="nav nav-pills tabs-iconized" role="tablist">
-  <li class="active"><a href="#ndn-mobility" role="tab" data-toggle="tab">
-  <i class="fa fa-mobile"></i> NDN Mobility </a></li>  
+  <li class="active"><a href="#overview" role="tab" data-toggle="tab">
+  Selected publications </a></li>
+  <li><a href="#ndn-mobility" role="tab" data-toggle="tab">
+  <i class="fa fa-info"></i> NDN Introduction </a></li>
+  <li><a href="#wireless-edge" role="tab" data-toggle="tab">
+  <i class="fa fa-wifi"></i> NDN@Edge </a></li>
   <li><a href="#ar-vr" role="tab" data-toggle="tab">
   <i class="fa fa-camera-retro"></i> AR/VR </a></li>
-  <li><a href="#wireless-edge" role="tab" data-toggle="tab">
-  <i class="fa fa-wifi"></i> Wireless Edge </a></li>
-  <li><a href="#acceleration" role="tab" data-toggle="tab">
-  <i class="fa fa-rocket"></i> Domain-specific Acceleration </a></li>
   <li><a href="#security" role="tab" data-toggle="tab">
   <i class="fa fa-user-secret"></i> Security </a></li>
+  <li><a href="#acceleration" role="tab" data-toggle="tab">
+  <i class="fa fa-rocket"></i> Domain-specific Acceleration </a></li>
 </ul>
 <!-- END Nav bar-->
 
 <!-- Content -->
 <div class="tab-content">
-<div class="tab-pane fade in active" id="ndn-mobility">
+<div class="tab-pane fade in active" id="overview">
+  {% include pub-overview.html %}
+</div>
+<div class="tab-pane fade" id="ndn-mobility">
   {% bibliography --query @*[category=mobility] %}
 </div>
 <div class="tab-pane fade" id="ar-vr">

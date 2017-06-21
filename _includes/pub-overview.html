@@ -1,0 +1,15 @@
+<div class="overview">
+{% for item in page.category %}
+<div class="container">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4><i class="fa fa-hand-o-right"><b>  {{item.name}}</b></i></h4>
+    </div>
+    <div class="panel-body">
+      {% bibliography --query @*[category=dis-{{item.id}}] %}
+    </div>
+  </div>
+</div>	
+								
+{% endfor %}
+</div>
