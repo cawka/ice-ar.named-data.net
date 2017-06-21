@@ -26,14 +26,8 @@ navbar_list:
   link: team.html
 - name: Publications
   link: pub.html
-- name: News
-  link: /
-- name: Software
-  submenu:
-    - name: ARToolkit
-    - name: ndn-cxx
-    - name: ndnSim
-    - name: PARADE    
+- name: Codebases
+  link: codebase.html
 
 # google_analytics:
 #    account: UA-XXXXX-X
@@ -52,5 +46,3 @@ scholar:
   details_dir: ./publications/details
   details_layout: details.html
   #query: "@*[public!=no]"
-
-

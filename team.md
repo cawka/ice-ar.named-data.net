@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ICE-AR Project Team
+group: Project Team
 
 team:
   - name: Alex Afanasyev

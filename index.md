@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: right-sidebar
 title: ICN-Enabled Secure Edge Networking with Augmented Reality (ICE-AR)
+group: Home
 ---
 
 <div class="row" markdown="1">
@@ -18,19 +19,13 @@ The ICE-AR project team will apply and extend seven years of research efforts on
 
 ## Our Objectives
 
-<span class="dropcap dropcap-big">E</span>  Enable ICN in an operational demonstration system that integrates low-level wireless performance improvements with domain-specific acceleration 
+<span class="dropcap">E</span>  Enable ICN in an operational demonstration system that integrates low-level wireless performance improvements with domain-specific acceleration 
 as a service --- explore the design and usage of computation at wireless edge.
-{: class="lead" }
 
-<span class="dropcap dropcap-big">D</span> Develop the design of robust and resilient networking for an information system that comprehensively utilizes infrastructure resources 
+<span class="dropcap">D</span> Develop the design of robust and resilient networking for an information system that comprehensively utilizes infrastructure resources 
 as well as withstands massive infrastructure failures.
-{: class="lead" }
 
-<span class="dropcap dropcap-big">G</span> Generate and generalize approaches that transition content delivery from monolithic, context-independent streams to highly granular, context-dependent approaches that can adapt rapidly and be delivered efficiently.
-{: class="lead" }
+<span class="dropcap">G</span> Generate and generalize approaches that transition content delivery from monolithic, context-independent streams to highly granular, context-dependent approaches that can adapt rapidly and be delivered efficiently.
 
-<span class="dropcap dropcap-big">E</span>Explore how to infuse comprehensive end-to-end security and identity privacy protection for users/applications--intrinsic security and privacy in all cyberspace elements at the edge, rather than an after-thought patch-on.
-{: class="lead" }
-
-<!-- - <span class="dropcap dropcap-big">I</span> Investigate management of identities and trust relations in dense deployments in large campus networks of the future where content can be generated  by all edge devices.  -->
+<span class="dropcap">E</span>Explore how to infuse comprehensive end-to-end security and identity privacy protection for users/applications--intrinsic security and privacy in all cyberspace elements at the edge, rather than an after-thought patch-on.
 
