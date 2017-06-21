@@ -12,7 +12,7 @@ team:
   - name: Jeff Burke
     photo: jeff-burke.png
     title: UCLA; AR, NDN, ICN
-    info: "Jeff Burke is Executive Director of the Center for Research in Engineering, Media and Performance (REMAP), a collaborative center of the School of Theater, Film and Television (TFT) and Henry Samueli School of Engineering and Applied Science at UCLA. He is also Assistant Dean for Technology and Innovation at TFT, where he has been on the faculty since 2003. As of July 2017, he will be full Professor-in-Residence and Associate Dean for Technology and Innovation, pending final approval. As a faculty administrator at one of the premier programs of its kind, his role is to develop and implement strategy for advancing TFT as a global leader in interdisciplinary innovation at the intersection of new digital platforms, technology, visual storytelling, and performance."
+    info: "Jeff Burke is Executive Director of the Center for Research in Engineering, Media and Performance (REMAP), a collaborative center of the School of Theater, Film and Television (TFT) and Henry Samueli School of Engineering and Applied Science at UCLA. He is also Assistant Dean for Technology and Innovation at TFT, where he has been on the faculty since 2003.  As a faculty administrator at one of the premier programs of its kind, his role is to develop and implement strategy for advancing TFT as a global leader in interdisciplinary innovation at the intersection of new digital platforms, technology, visual storytelling, and performance."
     
   - name: Jason Cong
     photo: jason-cong.png
