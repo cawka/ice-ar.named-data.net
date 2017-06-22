@@ -1,21 +1,32 @@
 ---
 ---
 
-<span id="{{entry.key}}"><div class="csl-block csl-content", style="line-height:150%">
+<span id="{{ entry.key }}"> <div class="csl-block csl-content", style="line-height:150%">
   <div class="csl-block csl-title">
-    <b>{{entry.title}}</b>. {% if entry.status %} (<i>{{entry.status}}</i>) {% endif %}
+    {% if entry.url %}
+      <a href="{{ entry.url }}">
+    {% endif %}
+    <b>{{ entry.title }}</b>. {% if entry.status %} (<i>{{ entry.status }}</i>) {% endif %}
+    {% if entry.url %}
+      </a>
+    {% endif %}
   </div>
-  <div class="csl-block csl-author"><i>by </i>{{entry.author}}.</div>
+  <div class="csl-block csl-author"><i>by </i>{{ entry.author }}.</div>
   <div class="csl-block csl-event">
-    {% if entry.booktitle %} In <i>{{entry.booktitle}}</i>, {% endif %}
-    {% if entry.journal %} In <i>{{entry.journal}}</i>, {% endif %}
-    {% if entry.pages %} pp. {{entry.pages}}, {% endif %}
-    {% if entry.year %} <b>{{entry.year}}</b>. {% endif %}
+    {% if entry.type == "techreport" or entry.type == "Tech. Report" %}
+      Technical Report {{ entry.number }}, 
+    {% endif %}
+    {% if entry.booktitle %} In <i>{{ entry.booktitle }}</i>, {% endif %}
+    {% if entry.journal %} In <i>{{ entry.journal }}</i>, {% endif %}
+    {% if entry.pages %} pp. {{ entry.pages }}, {% endif %}
+    {% if entry.month %} {{ entry.month }}, {% endif %}
+    {{ entry.year }}.
   </div>
 
+  {% comment %}
   {% if entry.category contains "dis" %}
   {% else %}
-    <button class="button0" onclick="toggleBibtex{{entry.key}}()">Bibtex</button>
+    <button class="button0" onclick="toggleBibtex{{ entry.key}}()">Bibtex</button>
   {% endif %}
   
   {% if entry.doi %}
@@ -25,19 +36,13 @@
   {% if entry.preprint %}
   <a href="{{ entry.preprint }}">Preprint</a>
   {% endif %}
-  
-  {% if entry.link %}
-  <a href="{{ entry.link }}">PDF</a>
-  {% endif %}
- 
-  {% if entry.code %}
-  <a href="{{ entry.code }}">CODE</a>
-  {% endif %}
+  {% endcomment %}
   
 </div></span>
-  
-<div id="a{{entry.key}}" style="display: none;">
-<pre>{{entry.bibtex}}</pre>
+
+{% comment %}
+<div id="a{{ entry.key }}" style="display: none;">
+<pre>{{ entry.bibtex }}</pre>
 </div>
 
 <script>
@@ -50,3 +55,4 @@ function toggleBibtex{{entry.key}}(parameter) {
     }
 }
 </script>
+{% endcomment %}
