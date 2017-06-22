@@ -1,0 +1,66 @@
+---
+layout: default
+title: Project Meetings
+group: Meetings
+
+---
+
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3>Intel-NSF ICN-WEN Kickoff workshop</h3>
+    </div>
+    <div class="panel-body">
+      <b>June 21-22, 2017</b>
+      <hr/>
+      {% capture prefix %}{{ site.baseurl }}/meetings/2017-ICN-WEN-Kickoff{% endcapture %}
+      <ul>
+        <li>
+          <a href="{{ prefix }}/NDN-Tutorial-part1.pdf">
+            <b>NDN Tutorial part 1</b>: A 1000 feet view on NDN (Patric Crowley)
+            <br/>
+            <div class="row">
+              {% for num in (1..6) %}
+	        <div class="col-md-2 col-sm-2 {% if num <= 3 %}col-xs-4{% else %}hidden-xs{% endif %}">
+		  <div class="boxed-content">
+                    <img style="max-width:100%" src="{{ prefix }}/previews/NDN-Tutorial-part1-{{ num }}.jpg" />
+		  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="{{ prefix }}/NDN-Tutorial-part2.pdf">
+            <b>NDN Tutorial part 2</b>: The secret sauce of NDN (Alex Afanasyev)
+            <br/>
+            <div class="row">
+              {% for num in (1..6) %}
+	        <div class="col-md-2 col-sm-2 {% if num <= 3 %}col-xs-4{% else %}hidden-xs{% endif %}">
+		  <div class="boxed-content">
+                    <img style="max-width:100%" src="{{ prefix }}/previews/NDN-Tutorial-part2-{{ num }}.jpg" />
+		  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="{{ prefix }}/ICE-AR-Intro.pdf">
+            <b>Advancing Applications from the Edge In with Information-Centric Networking</b> (Jeff Burke)
+            <br/>
+            <div class="row">
+              {% for num in (1..6) %}
+	        <div class="col-md-2 col-sm-2 {% if num <= 3 %}col-xs-4{% else %}hidden-xs{% endif %}">
+		  <div class="boxed-content">
+                    <img style="max-width:100%" src="{{ prefix }}/previews/ICE-AR-Intro-{{ num }}.jpg" />
+		  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

@@ -22,6 +22,8 @@ logo: assets/img/logo.png
 navbar_list:
 - name: Home
   link: /
+- name: Meetings
+  link: meetings.html
 - name: Codebases
   link: codebase.html
 - name: Publications
