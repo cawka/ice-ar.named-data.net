@@ -34,3 +34,6 @@ $bs-color-danger: #D9534F;
 // theme colors
 $dark-header-color: #a94913;
 $light-footer-color: #cb9605;
+
+$grid-float-breakpoint: 480px;
+$grid-float-breakpoint-max: ($grid-float-breakpoint - 1);
