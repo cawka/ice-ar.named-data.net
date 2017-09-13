@@ -6,8 +6,8 @@ group: Project Team
 team:
   - name: Alex Afanasyev
     photo: alex-afanasyev.png
-    title: UCLA; Networking, Security, NDN, ICN
-    info: "Alex Afanasyev is an Adjunct Assistant Professor in the Computer Science Department of the University of California, Los Angeles.  He received his Ph.D. degree in computer science from UCLA in 2013.  His research focus is on the next-generation Internet architecture as part of the Named Data Networking (NDN) project. His research interests include a variety of topics that are vital for the success of NDN, including scalability of name-based routing, auto-configuration, distributed data synchronization, application and network security.  He is also leading the development effort of the overall NDN codebase."
+    title: Florida International University (FIU); Networking, Security, NDN, ICN
+    info: "Alex Afanasyev is an Assistant Professor in the School of Information and Computing Sciences at Florida International University.  He received his Ph.D. degree in computer science from UCLA in 2013.  His research focus is on the next-generation Internet architecture as part of the Named Data Networking (NDN) project. His research interests include a variety of topics that are vital for the success of NDN, including scalability of name-based routing, auto-configuration, distributed data synchronization, application and network security.  He is also leading the development effort of the overall NDN codebase."
     
   - name: Jeff Burke
     photo: jeff-burke.png
