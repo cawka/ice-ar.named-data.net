@@ -44,7 +44,9 @@ scholar:
   order: descending
 
   source: ./_publications
-  bibliography: pub.bib
+  bibliography:
+    - pub.bib
+    - background.bib
   details_dir: ./publications/details
   details_layout: details.html
   #query: "@*[public!=no]"

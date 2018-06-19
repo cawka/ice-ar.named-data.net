@@ -1,0 +1,66 @@
+---
+layout: default
+no_sidebar: true
+title: Reference Publications for ICE-AR Project
+group: Publications
+
+category:
+  - name: NDN Intro
+    id: ndn-intro
+    icon: fa-info
+  
+  - name: NDN@Edge
+    id: edge
+    icon: fa-wifi
+
+  - name: AR/VR
+    id: ar
+    icon: fa-camera-retro
+
+  - name: Security
+    id: security
+    icon: fa-user-secret
+
+  - name: Domain-specific Acceleration
+    id: acceleration
+    icon: fa-rocket
+---
+
+<!-- Nav bar -->
+<ul class="nav nav-pills tabs-iconized" role="tablist">
+  <li class="active"><a href="#overview" role="tab" data-toggle="tab">
+    Selected publications </a>
+  </li>
+  {% for item in page.category %}
+  <li><a href="#{{ item.id }}" role="tab" data-toggle="tab">
+    <i class="fa {{ item.icon }}"></i> {{ item.name }}</a>
+  </li>
+  {% endfor %}
+</ul>
+<!-- END Nav bar-->
+
+<!-- Content -->
+<div class="tab-content">
+  <div class="tab-pane fade in active" id="overview">
+    <div class="overview">
+      {% for item in page.category %}
+        <div class="container">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4><i class="fa {{ item.icon }}"></i> {{ item.name }}</h4>
+            </div>
+            <div class="panel-body">
+              {% bibliography --file background --query @*[keywords ~= dis-{{ item.id }}] %}
+            </div>
+          </div>
+        </div>	
+      {% endfor %}
+    </div>
+  </div>
+  {% for item in page.category %}
+  <div class="tab-pane fade" id="{{ item.id }}">
+    {% bibliography --file background --query @*[keywords ~= {{ item.id }}] %}
+  </div>
+  {% endfor %}
+</div>
+<!-- END Content -->
