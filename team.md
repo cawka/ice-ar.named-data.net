@@ -7,7 +7,7 @@ team:
   - name: Alex Afanasyev
     photo: alex-afanasyev.png
     title: Florida International University (FIU); Networking, Security, NDN, ICN
-    info: "Alex Afanasyev is an Assistant Professor in the School of Information and Computing Sciences at Florida International University.  He received his Ph.D. degree in computer science from UCLA in 2013.  His research focus is on the next-generation Internet architecture as part of the Named Data Networking (NDN) project. His research interests include a variety of topics that are vital for the success of NDN, including scalability of name-based routing, auto-configuration, distributed data synchronization, application and network security.  He is also leading the development effort of the overall NDN codebase."
+    info: "Alex Afanasyev is an Assistant Professor in the School of Information and Computing Sciences at Florida International University.  He received his Ph.D. degree in computer science from UCLA in 2013.  His research focus is on the next-generation Internet architecture as part of the Named Data Networking (NDN) project. His research interests include scalability of name-based routing, auto-configuration, distributed data synchronization, application and network security.  He is also leading the development effort of the overall NDN codebase."
     
   - name: Jeff Burke
     photo: jeff-burke.png
@@ -18,11 +18,6 @@ team:
     photo: jason-cong.png
     title: UCLA; Customizable Computing, AR
     info: "Jason Cong received his B.S. degree in computer science from Peking University in 1985, his M.S. and Ph. D. degrees in computer science from the University of Illinois at Urbana-Champaign in 1987 and 1990, respectively. Currently, he is a Chancellor’s Professor at the Computer Science Department of University of California, Los Angeles, the Director of Center for Domain-Specific Computing (funded by NSF Expeditions in Computing Award), and the director of VLSI Architecture, Synthesis, and Technology (VAST) Laboratory. He served as the chair of the UCLA Computer Science Department from 2005 to 2008, and is currently serving as an Associate Vice Provost for Internationalizaton since 2009."
-    
-  - name: Mario Gerla
-    photo: mario-gerla.png
-    title: UCLA; Wireless, VANET
-    info: "Mario Gerla holds the Engineering degree from the Politecnico di Milano, Italy and the Ph.D. degree from UCLA. He became IEEE Fellow in 2002. As a Graduate Student at UCLA, he was part of the team that worked on the early ARPA Network system and protocols under the guidance of Prof. Leonard Kleinrock. After four years at Network Analysis Corporation in NY, he joined the UCLA Faculty in 1976. At UCLA he has designed network protocols including ad hoc wireless clustering, multicast (ODMRP and CODECast) and Internet transport (TCP Westwood). He has lead the ONR MINUTEMAN project, designing the next generation scalable airborne Internet for tactical and homeland defense scenarios. He is now leading several advanced wireless network projects under Industry and Government funding. His team is developing a Vehicular Testbed for safe navigation, content distribution, urban sensing and intelligent transport. Parallel research activities are wireless medical monitoring using smart phones and cognitive radios in urban environments. He has served on several Conference Program Committees including MobiCom, MobiHoc, MedHocNet and WONS. He is on the IEEE TON Scientific Advisory Board."
     
   - name: Songwu Lu
     photo: songwu-lu.png

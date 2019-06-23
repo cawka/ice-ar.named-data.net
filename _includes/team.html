@@ -1,9 +1,11 @@
 <section class="team">
   <div class="section-content">
     {% for person in include.people %}
+      {% cycle '<div class="row">', '' %}
       <div class="col-md-6">
         {% include person.html %}
       </div>
+      {% cycle '', '</div>' %}
     {% endfor %}
   </div>
 </section>
