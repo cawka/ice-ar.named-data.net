@@ -1,0 +1,27 @@
+language: ruby
+sudo: true
+dist: trusty
+rvm:
+- 2.4
+branches:
+  only:
+  - master
+env:
+  global:
+  - JEKYLL_ENV=production
+script:
+  - gem install bundler
+  - bundle exec jekyll build
+addons:
+  ssh_known_hosts: named-data.net
+before_deploy:
+  - openssl aes-256-cbc -K $encrypted_a8a3ce226f75_key -iv $encrypted_a8a3ce226f75_iv -in .travis.d/id_rsa.enc -out /tmp/id_rsa -d
+  - eval "$(ssh-agent -s)"
+  - chmod 600 /tmp/id_rsa
+  - ssh-add /tmp/id_rsa
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: rsync -arv --delete-after build/ icear@named-data.net:/var/www/named-data.net/ice-ar
+  on:
+    branch: master
