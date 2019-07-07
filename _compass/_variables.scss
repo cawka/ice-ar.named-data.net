@@ -37,3 +37,8 @@ $light-footer-color: #cb9605;
 
 $grid-float-breakpoint: 480px;
 $grid-float-breakpoint-max: ($grid-float-breakpoint - 1);
+
+.details {
+    margin-top: -1.4em;
+    float: right !important;
+}

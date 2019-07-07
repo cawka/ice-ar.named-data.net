@@ -6,7 +6,7 @@ highlighter: rouge
 markdown: kramdown
 exclude: ['CNAME', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', '.sass-cache']
 
-gems:
+plugins:
   - jekyll-compass
 
 url: https://ice-ar.named-data.net
@@ -44,9 +44,7 @@ scholar:
   order: descending
 
   source: ./_publications
-  bibliography:
-    - pub.bib
-    - background.bib
-  details_dir: ./publications/details
-  details_layout: details.html
-  #query: "@*[public!=no]"
+  details_dir: assets/bibtex
+  details_layout: bib-item-details.html
+  details_link: BibTex
+  bibliography: '**/*.bib'
