@@ -22,6 +22,6 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -arv --delete-after build/ icear@named-data.net:/var/www/named-data.net/ice-ar
+  script: rsync -arv --delete-after _site/ icear@named-data.net:/var/www/named-data.net/ice-ar
   on:
     branch: master
