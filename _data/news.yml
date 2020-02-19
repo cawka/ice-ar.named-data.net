@@ -1,3 +1,15 @@
+- date: January 8, 2020
+  news: ICE-AR half-year virtual meeting with NSF/Intel to report our progress
+
+- date: October 22, 2019
+  news: A group of Intel researchers head by Dr. Geng Wu, together with Dr. Jin Yang from Verizon, visited the ICE-AR team to explore the potential of data-centric approach to future cellular networking.
+
+- date: October 10-11, 2019
+  news: ICE-AR retreat, UCLA, CA.  <br/>During the retreat the app group gave a hands-on tutorial on TouchNDN framework and the team discussed potential usages of the framework in future demoware projects
+
+- date: September 24, 2019
+  news: 'Two NDN tutorials at ACM ICN 2019 conference, Macau: <ul><li><a href="https://conferences.sigcomm.org/acm-icn/2019/tutorial-NDN-Lite.php">NDN IoT: Taking NDN to Real Experimentation – NDN-LITE Tutorial</a> <li><a href="https://conferences.sigcomm.org/acm-icn/2019/tutorial-TouchNDN.php">Creating Distributed Media Experiences with TouchDesigner and NDN</a>.</li></ul>  Recordings are available on <a href="https://named-data.net/publications/tutorials/">NDN website</a>.' 
+
 - date: July 15-16, 2019
   news: Intel/NSF ICN-WEN Annual Workshop, Santa Clara, CA
 
