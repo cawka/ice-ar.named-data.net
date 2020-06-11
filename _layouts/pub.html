@@ -25,6 +25,10 @@
     {{ entry.year }}.
   </div>
 
+  {% if entry.video %}
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ entry.video }}" target="presentation"><i class="fa fa-file-video-o">&nbsp;</i> Paper presentation</a>
+  {% endif %}
+  
   {% comment %}
   {% if entry.category contains "dis" %}
   {% else %}

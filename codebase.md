@@ -1,11 +1,11 @@
 ---
 layout: default
-title: References Codebases
+title: Codebases
 group: Codebases
 
 ---
 
-The ICE-AR project will be relying on the following reference open-source codebases:
+Used and developed codebases for the ICE-AR project:
 
 - [Named Data Networking Forwarding Daemon (NFD)](https://named-data.net/doc/NFD)
 
@@ -29,3 +29,7 @@ The ICE-AR project will be relying on the following reference open-source codeba
 - [Fast Repo](https://github.com/remap/fast-repo)
 
 - [NDNCERT: NDN Certificate Management Framework](https://github.com/named-data/ndncert)
+
+- [NDN-Lite: A lightweight NDN protocol stack with high-level application support](https://ndn-lite.named-data.net/)
+
+- [FlexCNN: End-to-End Optimization of Deep Learning Applications](https://vast.cs.ucla.edu/software/flexcnn-end-end-optimization-deep-learning-applications)
