@@ -8,4 +8,4 @@ gem 'classifier-reborn', '>=2.0.4'
 gem 'kramdown',          '>=1.13.1'
 gem 'jekyll-compass',    '>=2.0.1'
 gem 'jekyll-scholar', '~> 5.14', '>= 5.14.2'
-
+gem 'kramdown-parser-gfm'
